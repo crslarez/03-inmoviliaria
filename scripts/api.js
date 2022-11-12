@@ -1,6 +1,6 @@
 const URL_API = "http://localhost:3000/propiedades";
 const will = 2;
-const getProperties = async () => {
+export const getProperties = async () => {
   try {
     const peticion = await fetch(URL_API);
     const parsear = peticion.json();
@@ -10,4 +10,4 @@ const getProperties = async () => {
     console.log(error);
   }
 };
-getProperties();
+// getProperties();
