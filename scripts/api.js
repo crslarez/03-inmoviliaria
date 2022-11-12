@@ -3,7 +3,7 @@ const will = 2;
 export const getProperties = async () => {
   try {
     const peticion = await fetch(URL_API);
-    const parsear = peticion.json();
+    const parsear = await peticion.json();
     console.log(parsear);
     return parsear;
   } catch (error) {
