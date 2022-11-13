@@ -9,4 +9,4 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 });
 
-console.log("as");
+alert("carlos");

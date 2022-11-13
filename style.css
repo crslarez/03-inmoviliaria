@@ -16,6 +16,7 @@
 .title {
   font-size: 56px;
   text-align: center;
+  margin-bottom: 35px;
 }
 
 .card {
@@ -29,6 +30,12 @@
 
 #container-cards {
   padding-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
 }
 .card-img {
   width: 100%;

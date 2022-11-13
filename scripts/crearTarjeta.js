@@ -24,9 +24,9 @@ export const createCards = (propiedad) => {
           </div>
           <div class="card-p-features">
             <strong class="card-p-sq">${propiedad.area}</strong>
-            <span>3</span>
-            <span>4</span>
-            <span>2</span>
+            <span>${propiedad.park}</span>
+            <span>${propiedad.baths}</span>
+            <span>${propiedad.rooms}</span>
           </div>
         </div>
       </div>
