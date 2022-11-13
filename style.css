@@ -20,22 +20,20 @@
 
 .card {
   width: 398px;
-  height: 519px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 7px #7a7a7a5c;
   border-radius: 5px;
   overflow: hidden;
+  padding-bottom: 10px;
 }
 
 #container-cards {
   padding-bottom: 3rem;
-
 }
 .card-img {
   width: 100%;
   height: 278px;
   padding: 24px;
-  background-image: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -48,41 +46,39 @@
 }
 
 .card-p-type {
-  background-color: #2A42E8;
-  color: #FFFFFF;
+  background-color: #2a42e8;
+  color: #ffffff;
   padding: 8px 11px;
   border-radius: 4px;
 }
 
 .card-p-status {
-  background-color: #FF5E15;
-  color: #FFFFFF;
+  background-color: #ff5e15;
+  color: #ffffff;
   padding: 8px 11px;
   border-radius: 4px;
 }
 
-.card-p-square, .card-p-black-square {
+.card-p-square,
+.card-p-black-square {
   width: 34px;
   height: 30px;
   border-radius: 4px;
   display: block;
-
 }
 
 .card-p-square {
-    background-color: #2A42E8;  
-    margin-left: auto;
+  background-color: #2a42e8;
+  margin-left: auto;
 }
 
-.card-p-black-square{
+.card-p-black-square {
   background-color: black;
-
 }
 
 .card-botton {
   display: flex;
   gap: 5px;
-  
 }
 
 .card-info {
@@ -90,20 +86,55 @@
 }
 
 .card-p-price {
-    background-color: #fff;
-      color: #2A42E8;
-      padding: 6px 16px;
-      border-radius: 4px;
-      font-weight: 500;
-      margin-right: auto;
+  background-color: #fff;
+  color: #2a42e8;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-right: auto;
 }
 
 .card-p-location {
   font-weight: 400;
   color: #848484;
-
 }
 
 .card-full-location {
-    font-weight: 400;
+  font-weight: 400;
+  margin-bottom: 23px;
+}
+
+.card-p-location {
+  font-weight: 400;
+  color: #848484;
+  margin-bottom: 20px;
+}
+.card-p-owner {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 40px;
+}
+.card-p-owner-photo {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+}
+
+.card-p-owner-name {
+  color: #2a42e8;
+}
+
+.card-p-date {
+  color: #848484;
+  margin-left: auto;
+}
+
+.card-p-features {
+  display: flex;
+  gap: 10px;
+}
+
+.card-p-sq {
+  margin-right: auto;
 }
