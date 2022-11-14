@@ -4,6 +4,23 @@
   box-sizing: border-box;
   font-family: "Rubik";
 }
+
+.header-main {
+}
+
+.header-info {
+  background-color: #2a42e8;
+  color: #ffffff;
+  padding: 17px;
+}
+
+.header-info-text {
+  padding: 15px;
+}
+
+.header-info-login {
+  float: right;
+}
 .title-head {
   display: block;
   text-align: center;

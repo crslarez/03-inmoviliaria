@@ -3,7 +3,7 @@
         {
             "type": "HOUSE",
             "status": "FOR SALE",
-            "price": 600000,
+            "price": "650.000",
             "location": "Miami, Florida",
             "address": "Mantano South, 32a street",
             "owner": "Carlos Salazar",
@@ -15,9 +15,9 @@
             "img": "house1.png"
         },
         {
-            "type": "casa",
-            "status": "For Sale",
-            "price": 1400000,
+            "type": "HOUSE",
+            "status": "FOR SALE",
+            "price": "140.000",
             "location": "Otawa, Binglow",
             "address": "Meriland, Row 2, 20 street",
             "owner": "Ernest Brown",
@@ -29,9 +29,9 @@
             "img": "house2.png"
         },
         {
-            "type": "casa",
-            "status": "For Sale",
-            "price": 60000,
+            "type": "HOUSE",
+            "status": "FOR SALE",
+            "price": "230.000",
             "location": "New York City",
             "address": "Mantano South, 32a street",
             "owner": "Oswald Lace",
@@ -43,9 +43,9 @@
             "img": "house3.png"
         },
         {
-            "type": "casa",
-            "status": "For Sale",
-            "price": 60000,
+            "type": "HOUSE",
+            "status": "FOR SALE",
+            "price": "195.000",
             "location": "Miami, Florida",
             "address": "Mantano South, 32a street",
             "owner": "Carlos Salazar",
@@ -57,9 +57,9 @@
             "img": "house4.png"
         },
         {
-            "type": "casa",
-            "status": "For Sale",
-            "price": 60000,
+            "type": "HOUSE",
+            "status": "FOR SALE",
+            "price": "320.000",
             "location": "Miami, Florida",
             "address": "Mantano South, 32a street",
             "owner": "Carlos Salazar",
@@ -71,9 +71,9 @@
             "img": "house5.png"
         },
         {
-            "type": "casa",
-            "status": "For Sale",
-            "price": 60000,
+            "type": "HOUSE",
+            "status": "FOR SALE",
+            "price": "435.000",
             "location": "Miami, Florida",
             "address": "Mantano South, 32a street",
             "owner": "Carlos Salazar",

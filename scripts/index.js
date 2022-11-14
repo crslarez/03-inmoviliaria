@@ -8,5 +8,3 @@ document.addEventListener("DOMContentLoaded", async () => {
     doCards.innerHTML += createCards(propiedad);
   });
 });
-
-alert("carlos");
