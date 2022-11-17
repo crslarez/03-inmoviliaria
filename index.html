@@ -9,38 +9,79 @@
   <title>INMOBILIARIA</title>
 </head>
 
-<main>
+<body>
+  <main>
+    <section class="section-main">
+      <div class="info-menu">
+        <span>1441 Market St, San Francisco</span>
+        <span>(123) 456-7890</span>
+        <span>Mon - Sun: 8:00am - 6:00pm</span>
+        <span class="login">LOGIN/REGISTER</span>
+      </div>
+      <header class="container-menu">
+        <div>
+          <img class="logo" src="img/header/Logo.png">
+        </div>
+        <div class="container-form">
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <img class="burger" src="img/header/icon-star.svg">
+          </label>
 
-  <section class="header-main">
-    <div class="header-info">
-      <span class="header-info-text">1441 Market St, San Francisco</span>
-      <span class="header-info-text">(123) 456-7890</span>
-      <span class="header-info-text">Mon - Sun: 8:00am - 6:00pm</span>
-      <span class="header-info-login">LOGIN/REGISTER</span>
-    </div>
+          <ul class="form--list">
+            <li>HOMEPAGE</li>
+            <li>PROPERTIES</li>
+            <li>AGENCIES</li>
+            <li>PAGES</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+            <li>COMPARE</li>
+            <li class="button">SUBMIT LISTING</li>
+          </ul>
+        </div>
+      </header>
 
-
-
-
-
-
-    <div class="header-menu"></div>
-    <div class="header-img">
-    </div>
-
-  </section>
-
-  <body>
-
+      <section>
+        <div class="container-search">
+          <h1>Let Us Guide You Home</h1>
+          <p>Find the house of your dreams</p>
+          <div class="container-form">
+            <form action="casasflitradas.html" class="form">
+              <div class="container-select">
+                <label for="type" class="label">Type:</label>
+                <select name="type" class="selects">
+                  <option value="select" disabled selected>Select type</option>
+                  <option value="casa">Casa</option>
+                  <option value="Finca">Finca</option>
+                  <option value="Local Comercial">Local comercial</option>
+                  <option value="Apartamento">Apartamento</option>
+                </select>
+              </div>
+              <div class="container-select">
+                <label for="status" class="label">Status:</label>
+                <select name="status" class="selects">
+                  <option value="select" disabled selected>Select status</option>
+                  <option value="Venta">Venta</option>
+                  <option value="Renta">Renta</option>
+                </select>
+              </div>
+              <div class="container-select ancho">
+                <input name="q" type="text" class="search" placeholder="Searh for properties, suburbs or keywords…">
+              </div>
+              <button type="submit" class="button-search ancho">FIND PROPERTIES</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </section>
     <section>
       <span class="title-head">CASAROYAL REAL ESTATE AGENCY</span>
       <h2 class="title"><strong>Featured</strong> Properties</h2>
-      <div id="container-cards">
-      </div>
+      <div id="container-cards"></div>
     </section>
-</main>
+  </main>
 
-<script type="module" src="scripts/index.js"></script>
+  <script type="module" src="scripts/index.js"></script>
 </body>
 
 </html>

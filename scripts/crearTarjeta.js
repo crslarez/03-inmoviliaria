@@ -1,7 +1,7 @@
 export const createCards = (propiedad) => {
   const card = /*html */ `
 
-      <div class="card">
+      <a class="card" href="casa.html?id=${propiedad.id}">
         <div class="card-img" style="background-image: url(img/properties/${propiedad.img})">
           <div class="card-top">
             <span class="card-p-type">${propiedad.type}</span>
@@ -29,7 +29,7 @@ export const createCards = (propiedad) => {
             <span>${propiedad.rooms}</span>
           </div>
         </div>
-      </div>
+      </a>
 
     `;
   return card;
