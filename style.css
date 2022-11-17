@@ -376,3 +376,8 @@ body {
     margin: 35px auto;
   }
 }
+
+.main-caps {
+  display: flex;
+  justify-content: center;
+}
