@@ -9,16 +9,6 @@ body {
   background-color: #f2f2f2;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.section-main {
-  justify-content: space-between;
-}
-
 .info-menu {
   display: flex;
   gap: 60px;
@@ -44,6 +34,7 @@ body {
   padding: 30px;
   border-radius: 5px;
   margin: auto;
+  gap: 12px;
 }
 
 .container-form {
@@ -264,6 +255,7 @@ body {
   background-color: #ff5e15;
   color: white;
 }
+
 .property-circle {
   display: block;
   width: 60px;
@@ -276,6 +268,15 @@ body {
   display: flex;
   color: #9b9b9b;
   justify-content: space-between;
+}
+.feature-icons {
+  background-image: url(img/icons/icon-bathroom.png);
+  background: repeat no-repeat;
+  padding-left: 5px;
+}
+
+.main-caps-img {
+  width: 70%;
 }
 
 @media (max-width: 850px) {
@@ -379,5 +380,12 @@ body {
 
 .main-caps {
   display: flex;
+  width: 100%;
+  display: flex;
+  margin: auto;
   justify-content: center;
+}
+
+.main-caps-img {
+  width: 90%;
 }
