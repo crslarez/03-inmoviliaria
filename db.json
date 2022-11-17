@@ -224,21 +224,6 @@
             "parking": 1,
             "bathrooms": 3,
             "rooms": 2
-        },
-        {
-            "id": 16,
-            "type": "Local Comercial",
-            "status": "Alquiler",
-            "price": "$17.500.000",
-            "location": "Medellin",
-            "img": "house3.png",
-            "general_details": "Casa de dos pisos en alquier",
-            "owner": "Ricardo",
-            "ago": "1 Mes",
-            "measure": "560 Sq Ft",
-            "parking": 0,
-            "bathrooms": 3,
-            "rooms": 3
         }
     ]
 }

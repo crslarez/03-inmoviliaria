@@ -29,13 +29,27 @@
           </label>
 
           <ul class="form--list">
-            <li> HOMEPAGE</li>
-            <li>PROPERTIES</li>
-            <li>AGENCIES</li>
-            <li>PAGES</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
-            <li>COMPARE</li>
+            <a href="./index.html">
+              <li> HOMEPAGE</li>
+            </a>
+            <a href="#container-cards">
+              <li>PROPERTIES</li>
+            </a>
+            <a href="#agents">
+              <li>AGENCIES</li>
+            </a>
+            <a href="#pages">
+              <li>PAGES</li>
+            </a>
+            <a href="#about">
+              <li>ABOUT</li>
+            </a>
+            <a href="#contact">
+              <li>CONTACT</li>
+            </a>
+            <a href="#compare">
+              <li>COMPARE</li>
+            </a>
             <li class="button">SUBMIT LISTING</li>
           </ul>
         </div>
@@ -43,33 +57,37 @@
 
       <section>
         <div class="container-search">
-          <h1>Let Us Guide You Home</h1>
-          <p>Find the house of your dreams</p>
           <div class="container-form">
-            <form action="casasflitradas.html" class="form">
-              <div class="container-select">
-                <label for="type" class="label">Type:</label>
-                <select name="type" class="selects">
-                  <option value="select" disabled selected>Select type</option>
-                  <option value="casa">Casa</option>
-                  <option value="Finca">Finca</option>
-                  <option value="Local Comercial">Local comercial</option>
-                  <option value="Apartamento">Apartamento</option>
-                </select>
+            <div>
+              <div class="title-search">
+                <h1>Let Us Guide You Home</h1>
+                <p>Find the house of your dreams</p>
               </div>
-              <div class="container-select">
-                <label for="status" class="label">Status:</label>
-                <select name="status" class="selects">
-                  <option value="select" disabled selected>Select status</option>
-                  <option value="Venta">Venta</option>
-                  <option value="Renta">Renta</option>
-                </select>
-              </div>
-              <div class="container-select ancho">
-                <input name="q" type="text" class="search" placeholder="Searh for properties, suburbs or keywords…">
-              </div>
-              <button type="submit" class="button-search ancho">FIND PROPERTIES</button>
-            </form>
+              <form action="casasflitradas.html" class="form">
+                <div class="container-select">
+                  <label for="type" class="label">Type:</label>
+                  <select name="type" class="selects">
+                    <option value="select" disabled selected>Select type</option>
+                    <option value="casa">Casa</option>
+                    <option value="Finca">Finca</option>
+                    <option value="Local Comercial">Local comercial</option>
+                    <option value="Apartamento">Apartamento</option>
+                  </select>
+                </div>
+                <div class="container-select">
+                  <label for="status" class="label">Status:</label>
+                  <select name="status" class="selects">
+                    <option value="select" disabled selected>Select status</option>
+                    <option value="Venta">Venta</option>
+                    <option value="Renta">Renta</option>
+                  </select>
+                </div>
+                <div class="container-select ancho">
+                  <input name="q" type="text" class="search" placeholder="Searh for properties, suburbs or keywords…">
+                </div>
+                <button type="submit" class="button-search ancho">FIND PROPERTIES</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
@@ -79,13 +97,13 @@
       <h2 class="title"><strong>Featured</strong> Properties</h2>
       <div id="container-cards"></div>
     </section>
-    <div class="main-caps"><img class="main-caps-img" src="img/pages/Cap01.png" alt=""></div>
-    <div class="main-caps"><img class="main-caps-img" src="img/pages/Cap02.png" alt=""></div>
-    <div class="main-caps"><img class="main-caps-img" src="img/pages/Cap03.png" alt=""></div>
-    <div class="main-caps"><img class="main-caps-img" src="img/pages/Cap04.png" alt=""></div>
-    <div class="main-caps"><img class="main-caps-img" src="img/pages/Cap05.png" alt=""></div>
-    <div class="main-caps"><img class="main-caps-img" src="img/pages/Cap06.png" alt=""></div>
-    <div class="main-caps"><img class="main-caps-img" src="img/pages/Cap07.png" alt=""></div>
+    <div class="main-caps"><img class="main-caps-img" src="img/pages/Cap01.png"></div>
+    <div class="main-caps" id="about"><img class="main-caps-img" src="img/pages/Cap02.png"></div>
+    <div class="main-caps" id="agents"><img class="main-caps-img" src="img/pages/Cap03.png"></div>
+    <div class="main-caps" id="compare"><img class="main-caps-img" src="img/pages/Cap04.png"></div>
+    <div class="main-caps"><img class="main-caps-img" src="img/pages/Cap05.png"></div>
+    <div class="main-caps" id="pages"><img class="main-caps-img" src="img/pages/Cap06.png"></div>
+    <div class="main-caps" id="contact"><img class="main-caps-img" src="img/pages/Cap07.png"></div>
 
   </main>
 

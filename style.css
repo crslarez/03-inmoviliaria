@@ -39,9 +39,11 @@ body {
 
 .container-form {
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto;
   display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 .form--list {
@@ -70,6 +72,8 @@ body {
   background-image: url(img/header/hero-bg-imagefondo.png);
   background-size: 100%;
   height: 463px;
+  align-items: center;
+  text-align: center;
 }
 
 .title-head {
@@ -279,6 +283,40 @@ body {
   width: 70%;
 }
 
+.icons img {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.icons {
+  width: 20%;
+  align-items: center;
+  width: 20%;
+  gap: 5px;
+  display: inline-flex;
+}
+
+.btn-back {
+  padding: 10px;
+  color: white;
+  background-color: #292929;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.form--list a {
+  text-decoration: none;
+  color: #000036;
+}
+
+.title-search {
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 850px) {
   .burger,
   #check {
@@ -328,7 +366,7 @@ body {
   }
 
   .container-search {
-    height: 30vh;
+    height: 40vh;
     color: white;
     text-align: center;
     padding: 10px;
@@ -355,6 +393,7 @@ body {
     background-color: white;
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 28px;
   }
 
   .label {
@@ -375,6 +414,10 @@ body {
 
   .property-circle {
     margin: 35px auto;
+  }
+
+  .title-search {
+    font-size: 20px;
   }
 }
 
