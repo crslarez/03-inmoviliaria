@@ -16,16 +16,16 @@ export const createCards = (propiedad) => {
         </div>
         <div class="card-info">
           <h4 class="card-p-location">${propiedad.location}</h4>
-          <h3 class="card-full-location">${propiedad.address}</h3>
+          <h3 class="card-full-location">${propiedad.general_details}</h3>
           <div class="card-p-owner">
             <img src="https://thispersondoesnotexist.com/image" class="card-p-owner-photo" alt="">
             <span class="card-p-owner-name">${propiedad.owner}</span>
             <span class="card-p-date">${propiedad.ago}</span>
           </div>
           <div class="card-p-features">
-            <strong class="card-p-sq">${propiedad.area}</strong>
-            <span>${propiedad.park}</span>
-            <span>${propiedad.baths}</span>
+            <strong class="card-p-sq">${propiedad.measure}</strong>
+            <span>${propiedad.parking}</span>
+            <span>${propiedad.bathrooms}</span>
             <span>${propiedad.rooms}</span>
           </div>
         </div>
