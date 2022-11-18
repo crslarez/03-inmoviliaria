@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/header/icon-star.svg" type="image/x-icon">
+    <title>Favoritas</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; margin: 50px;">Bienvenido a la seccion de favoritas</h1>
+    <div id="container-cards"></div>
+
+    <script type="module">
+        import { getPropietiesFilter } from "./scripts/api.js"
+        import { createCards } from "./scripts/crearTarjeta.js"
+
+        let search = window.location.search;
+
+        getPropietiesFilter(search).then((data) => {
+            const container = document.querySelector("#container-cards");
+            data.forEach((e) => {
+                const card = createCards(e);
+                container.innerHTML += card;
+            });
+        });
+    </script>
+</body>
+
+</html>

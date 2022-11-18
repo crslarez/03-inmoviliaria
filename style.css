@@ -221,7 +221,7 @@ body {
 }
 
 .text-section {
-  margin: 30px 0;
+  margin-top: 30px;
   text-align: center;
 }
 .property {
@@ -253,6 +253,7 @@ body {
   padding-top: 20px;
 }
 .property-price {
+  margin-top: 20px;
   border: none;
   padding: 5px 10px;
   border-radius: 4px;
@@ -302,7 +303,7 @@ body {
   color: white;
   background-color: #292929;
   border-radius: 5px;
-  margin-top: 10px;
+  margin: 20px 0;
 }
 
 .form--list a {
@@ -315,6 +316,11 @@ body {
   color: white;
   font-size: 30px;
   margin-bottom: 20px;
+}
+
+.fav {
+  margin: 30px auto;
+  display: block;
 }
 
 @media (max-width: 850px) {

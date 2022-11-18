@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Informacion casa</title>
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <title>Propiedad</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,7 +14,6 @@
   <div class="text-section">
     <p>CASAROYAL REAL ESTATE AGENCY</p>
     <h1>Hot Deal</h1>
-
     <a href="./index.html"><button class="btn-back">Volver</button></a>
   </div>
   <div class="property">
@@ -39,7 +39,6 @@
           <img src="img/icons/Bathroom Icon.png" class="icons">
           <span class="baño"></span>
         </div>
-
         <div class="icons">
           <img src="img/icons/Garage Icon (1).png" class="icons">
           <span class="parking"></span>
@@ -48,13 +47,14 @@
     </div>
   </div>
 
+  <button class="fav btn-back" id="add-fav">Agregar esta propiedad a mis Favoritos</button>
+
   <script type="module">
-    import { getPropertiesById } from "./scripts/api.js"
+    import { getPropertiesById, addToFavorite } from "./scripts/api.js"
 
     let id = window.location.search.split("=")[1];
 
     getPropertiesById(id).then((data) => {
-      console.log(data);
       document.querySelector(".property-photo").style.backgroundImage = `url(img/properties/${data.img})`
       document.querySelector(".property-name").innerHTML = data.location;
       document.querySelector(".property-name-info").innerHTML = data.general_details;
@@ -65,6 +65,12 @@
       document.querySelector(".baño").innerHTML = data.bathrooms
       document.querySelector(".parking").innerHTML = data.parking
     });
+
+    document.getElementById("add-fav").addEventListener("click", () => {
+      addToFavorite(id).then((data) => {
+        window.location.href = "/favoritas.html?isFavorite=true";
+      })
+    })
   </script>
 </body>
 

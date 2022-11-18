@@ -22,12 +22,25 @@ export const createCards = (propiedad) => {
             <span class="card-p-owner-name">${propiedad.owner}</span>
             <span class="card-p-date">${propiedad.ago}</span>
           </div>
-          <div class="card-p-features">
-            <strong class="card-p-sq">${propiedad.measure}</strong>
-            <span>${propiedad.parking}</span>
-            <span>${propiedad.bathrooms}</span>
-            <span>${propiedad.rooms}</span>
-          </div>
+                <div class="property-features">
+        <div class="icons">
+          <img src="img/icons/Area Icon.png" class="icons">
+          <span class="area">${propiedad.measure}</span>
+        </div>
+        <div class="icons">
+          <img src="img/icons/Bedroom Icon.png" class="icons">
+          <span class="rooms">${propiedad.rooms}</span>
+        </div>
+        <div class="icons">
+          <img src="img/icons/Bathroom Icon.png" class="icons">
+          <span class="baño">${propiedad.bathrooms}</span>
+        </div>
+
+        <div class="icons">
+          <img src="img/icons/Garage Icon (1).png" class="icons">
+          <span class="parking">${propiedad.parking}</span>
+        </div>
+      </div>
         </div>
       </a>
 
